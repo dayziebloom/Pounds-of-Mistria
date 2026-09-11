@@ -1,0 +1,9 @@
+{
+  "name": "Food to Weight",
+  "author": "Dayzbloom",
+  "version": "1.0.0",
+  "description": "Adds a nutritional value to every food item, as well as a weight stat for all adult NPCs that is affected by gifted food items. Liked and Loved gifts multiply the weight added by that food.",
+  "minInstallerVersion": "0.16.0",
+  "manifestVersion": 1,
+  "requires_hooks" : ["npc.gift_received", "ui.relationship_row_built", "save.game_loaded"]
+}
