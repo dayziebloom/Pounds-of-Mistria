@@ -12,7 +12,7 @@ function __adelines_adipose_runtime() {
 // Define your rules
 function adelines_adipose_rules() {
     return [
-        // This rule is more specific, so it comes first.
+        // Always list higher weights first, then in order of specificity
 		{
             npc: "adeline",
             sprite_name: "spr_portrait_adeline_barely_mobile_spring",
