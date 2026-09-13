@@ -23,6 +23,7 @@ A framework for NPC &amp; player weight gain within the game Fields of Mistria, 
 - Launch MOMI, and first uninstall all currently installed mods if any, then select the 'Food to Weight' and 'Dynamic NPC Portraits' mods alongside any other mods
   you'd like installed, and hit Install.
 - Once MOMI says the mods are installed, you can launch Fields of Mistria
+- "The Honorable Adeline's Adipose" is an example mod that gives Adeline 10 new weight stages with the highest one being at 800 pounds. Still a work in progress, as it only has Spring sprites for now
 
 # What the framework does
 - Tracks each adult NPC's weight on their page in the relationship menu.
