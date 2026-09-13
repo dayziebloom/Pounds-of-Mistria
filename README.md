@@ -1,13 +1,13 @@
 # Pounds-of-Mistria
-A framework for NPC &amp; player weight gain within the game Fields of Mistria
+A framework for NPC &amp; player weight gain within the game Fields of Mistria, uses a modified version of "Dynamic NPC Portraits" by Annanomaly on NexusMods
 
 # Requirements
 - ModsOfMistriaInstaller (MOMI)
-  - Available as the latest release on Github https://github.com/Garethp/Mods-of-Mistria-Installer/releases
+  - Available as the latest release on their ([Github](https://github.com/Garethp/Mods-of-Mistria-Installer/releases))
   - or is usually available on Nexus Mods, but that version is not always up-to-date
 
 # Recommended
-- Daily Gift Perks by MayZ (placeholder for link)
+- Daily Gift Perks by MayZ ([Nexus Link](https://www.nexusmods.com/fieldsofmistria/mods/1140))
   - This is a side mod which will add new perks to buy on the cooking skill tree, which will each let you gift 1 additional item
     per day to NPCs, up to a maximum of 3 per day.
 - HOWEVER
@@ -17,10 +17,10 @@ A framework for NPC &amp; player weight gain within the game Fields of Mistria
     - upload your .sav file here, view the file as raw JSON, and delete all lines of code that include 'elevenses' or 'second_breakfast'
  
 # How to Install
-- Download the latest version from the 'Releases' section on the right (bottom if you're viewing on mobile for some reason)
-- Unzip the folder, and place the 'Food to Weight' folder inside a 'mods' folder within your Fields of Mistria directory
+- Uze the 'code' dropdown button at the top of the home page above the list of folders, and 'download ZIP'
+- Unzip the folder, and place the 'Food to Weight' and 'Dynamic NPC Portraits (modified)' folders inside a 'mods' folder within your Fields of Mistria directory
   - (The folder you end up in if you use Steam's "browse local files" button)
-- Launch MOMI, and first uninstall all currently installed mods if any, then select the 'Food to Weight' mod alongside any other mods
+- Launch MOMI, and first uninstall all currently installed mods if any, then select the 'Food to Weight' and 'Dynamic NPC Portraits' mods alongside any other mods
   you'd like installed, and hit Install.
 - Once MOMI says the mods are installed, you can launch Fields of Mistria
 
@@ -35,3 +35,14 @@ A framework for NPC &amp; player weight gain within the game Fields of Mistria
 - On average, dishes give weight at about 1 pound per star, plus or minus based on the ingredients used.
   - i.e., fried dishes, dairy-heavy dishes, festival foods, and desserts all lean a bit heavier than their star count.
 - You cannot make a weight stat go lower than its starting amount, effectively their weight gain total gets reset to 0 if it goes negative
+
+# Planned Features
+- Weight gain speed toggle, either doubling or halving the weight each food item gives an NPC
+- Hooks for other mods to modify base stats of both food and NPCs
+- A natural weight loss mechanic (tied to a toggle)
+- A library of burp sound effects for mods to pull from
+- More example and tutorial documentation
+
+# Potential Features, not yet possible in current engine
+- Dynamic overworld sprites
+- Full-body portrait viewer
