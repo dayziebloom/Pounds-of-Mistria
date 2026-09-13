@@ -63,7 +63,6 @@ function dynamic_npc_portraits_current_weight(npc) {
 		return;
 	}
 	var _ftw = global[$"__food_to_weight"];
-	mmapi_log_info("dynamic_npc_portraits","base weight is " + string(_ftw.base_weights.get(npc)) + ", weight gain is " + string(_ftw.weight_gain[$ npc]));
 	var weight = _ftw.base_weights.get(npc) + floor(_ftw.weight_gain[$ npc] / 100);
 	return weight;
 }
