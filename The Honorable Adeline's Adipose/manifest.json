@@ -1,0 +1,8 @@
+{
+  "name": "Adelines Adipose",
+  "author": "Dayzbloom",
+  "version": "1.0.0",
+  "description": "An overhaul of Adeline's portraits and dialogue based on her weight. Dependent on Food to Weight and Dynamic NPC Portraits (modified)",
+  "minInstallerVersion": "0.16.0",
+  "manifestVersion": 1,
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Dynamic NPC Portraits (modified)",
+  "author": "annanomoly, edited by Dayzbloom",
+  "version": "2.0.0",
+  "description": "A framework mod: content mods register rules that swap an NPC's dialogue portrait based on in-game conditions.",
+  "minInstallerVersion": "0.16.0",
+  "manifestVersion": 1,
+  "requires_hooks": ["dialogue.speaker"]
+}
