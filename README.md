@@ -12,8 +12,9 @@ A framework for NPC &amp; player weight gain within the game Fields of Mistria
     per day to NPCs, up to a maximum of 3 per day.
 - HOWEVER
   - There is no clean way to remove custom perks from save files as of yet, so any save you make with this mod installed WILL lock
-    you into using that save with that mod. Trying to load the save without the perks mod will fail. Otherwise there may be a way
-    to edit custom perks out of a save file, but I do not know how yet.
+    you into using that save with that mod. Trying to load the save without the perks mod will fail.
+  - To edit your save, you will have to use https://www.saveeditonline.com/
+    - upload your .sav file here, view the file as raw JSON, and delete all lines of code that include 'elevenses' or 'second_breakfast'
  
 # How to Install
 - Download the latest version from the 'Releases' section on the right (bottom if you're viewing on mobile for some reason)
