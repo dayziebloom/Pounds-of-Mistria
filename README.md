@@ -17,7 +17,7 @@ A framework for NPC &amp; player weight gain within the game Fields of Mistria, 
     - upload your .sav file here, view the file as raw JSON, and delete all lines of code that include 'elevenses' or 'second_breakfast'
  
 # How to Install
-- Uze the 'code' dropdown button at the top of the home page above the list of folders, and 'download ZIP'
+- The latest pack is available under 'Releases' on the right-hand side of the github home screen ([here](https://github.com/dayziebloom/Pounds-of-Mistria/releases))
 - Unzip the folder, and place the 'Food to Weight' and 'dynamic_npc_portraits' folders inside a 'mods' folder within your Fields of Mistria directory
   - (The folder you end up in if you use Steam's "browse local files" button)
 - Launch MOMI, and first uninstall all currently installed mods if any, then select the 'Food to Weight' and 'Dynamic NPC Portraits' mods alongside any other mods
